@@ -9,7 +9,7 @@ def twoNumberSum(array: list, targetSum: int):
         elif currSum < targetSum:
             left += 1
         else:
-            right - +1
+            right -= 1
     return []
 
 
